@@ -16,7 +16,7 @@ public class VerifyFieldGetReq {
 
 	@Test
 	public void test() {
-		given().get("api/users/2").then().body("data.first_name", equalTo("Ja1net"));
+		given().get("api/users/2").then().body("data.first_name", equalTo("Janet"));
 	}
 
 }
