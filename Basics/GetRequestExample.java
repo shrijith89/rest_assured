@@ -18,7 +18,5 @@ public class getRequestExample {
 		int responseCode = response.getStatusCode();
 		System.out.println("The response code is "+responseCode +" The response is "+response.body().asPrettyString());
 		Assert.assertEquals(responseCode, 200);
-		
 	}
-	
 }
